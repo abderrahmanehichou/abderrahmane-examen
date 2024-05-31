@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+           
+        <nav class="navbar">
+            <div class="menu-icon" id="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-list" id="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="ejemplos.html">Ejemplos</a></li>
+                <li><a href="contact_us.html">Contact US</a></li>
+                <li><a href="acceso.html">Log in</a></li>
+            </ul>
+        </nav>
+ </header>
+    <form id="form" class="contact-form" action="https://formsubmit.co/abderrahmanehichou@email.com" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" class="input-field" placeholder="Tu nombre completo" pattern="[A-Za-z\s]+" required>
+        <br><br>
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" class="input-field" placeholder="Tu correo electrónico" required>
+        <br><br>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" class="input-field" placeholder="Tu número de teléfono" pattern="[0-9]+" required>
+        <br><br>
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto" class="input-field" placeholder="Motivo de tu mensaje" required>
+        <br><br>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" class="input-field" placeholder="Escribe tu mensaje aquí" rows="4" required></textarea>
+        <br><br>
+        <button type="submit" id="btn_submit" class="submit-button">Enviar</button>
+    </form>
+    <a href="mailto:abderrahmanehichou06@gmail.com" id="trucazo">mail</a>
+    <footer >
+        <div class="footer__right">
+            <a href="#">aviso legal</a>
+            <a href="#">about us</a>
+            <a href="https://discord.com/channels/@me">discord</a>
+        </div>
+        <div class="footer__copyright">
+            <p>© 2024 <a href="#">resiclaje</a>. All Rights Reserved.</p>
+        </div>
+        </footer>
+        <script src="js/.js"></script>
+        <script src="js/index.js"></script>
+    
+</body>
+</html>

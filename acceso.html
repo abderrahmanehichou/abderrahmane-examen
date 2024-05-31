@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+           
+        <nav class="navbar">
+            <div class="menu-icon" id="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-list" id="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="ejemplos.html">Ejemplos</a></li>
+                <li><a href="contact_us.html">Contact US</a></li>
+                <li><a href="acceso.html">Log in</a></li>
+            </ul>
+        </nav>
+ </header>
+ <section class="acceso-container">
+
+    <h2>Iniciar Sesión</h2>
+    <form id="loginForm" class="loginForm">
+        <label for="username">Nombre de Usuario</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="Email" required>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required>
+
+        <input class="buttonAcceso" type="submit" value="Iniciar Sesión">
+    </form>
+    <p id="error" class="error"></p>
+    <p>¿No tienes una cuenta?</p>
+    <br>
+    <p><a class="lickcrearcuenta" href="/crearcuenta.html">Crear una cuenta</a></p>
+
+</section>
+    <footer >
+        <div class="footer__right">
+            <a href="#">aviso legal</a>
+            <a href="#">about us</a>
+            <a href="https://discord.com/channels/@me">discord</a>
+        </div>
+        <div class="footer__copyright">
+            <p>© 2024 <a href="#">resiclaje</a>. All Rights Reserved.</p>
+        </div>
+        </footer>
+        <script src="js/acceso.js"></script>
+        <script src="js/index.js"></script>
+    
+</body>
+</html>
